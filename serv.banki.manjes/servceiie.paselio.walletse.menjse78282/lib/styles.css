@@ -1,0 +1,997 @@
+/*****************************************************************************
+*    Proyecto: BANKIA - PORTAL UNICO
+*    Titulo: styles.css
+*    Desripcion: Estilos para uso de desarrollo
+******************************************************************************/
+/* Estilos generales para todas las vistas */
+
+.quitarSeleccion{ pointer-events: none; cursor: default; }
+
+.spanCentradoPlanesRelacionadosparticulares{
+	display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+/* hide up/down arrows ("spinners") on input fields marked type="number" */
+.no-spinners {
+  -moz-appearance:textfield;
+}
+
+.no-spinners::-webkit-outer-spin-button,
+.no-spinners::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.mod_list.lst-table .lst-item-text.second-comisionFP {width: 13%;text-align: right;font-family: "SourceSansPro-semiBold";padding-right: 15px;}
+.mod_list.lst-table .lst-item-text.last-comisionFP {width: 100%;text-align: left;font-family: "SourceSansPro";}
+.but-oranje.but-wAuto.solicitarDonut.mobile { visibility: hidden; }
+
+.repartoGastosGastosAsociados{
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-top: -15px;
+  font-size: 12px;
+}
+
+.disclaimerTarjetas{
+color: #4A4A4A;
+    font-family: "bankia-medium";
+    font-size: 1rem;
+    text-decoration: none;
+}
+.disclaimerTarjetas:hover{
+	text-decoration: underline;
+	color: #4A4A4A;
+}
+.alturaFormuarioInicioSimuladorHipotecaNuevo{
+	padding: 3.3125rem 0rem 2.5rem !important;
+}
+
+.alturaNecesitasAyudaNecesitasAyuda{
+	top: 1rem !important;
+}
+
+.modificarUrlTercerosB{
+	display: inline-block;
+    font-family: "SourceSansPro-semibold";
+    font-size: 1rem;
+    line-height: 120%;
+    text-decoration: none;
+    color: #6F7800;
+    
+}
+.mod_lightbox.mod_lightboxNew.mod_lightboxNew .modal-body .mod_buttons{
+       padding-bottom: 0.6rem;
+  }
+ .addUnderline:hover {
+ 	text-decoration: underline;
+ }
+ 
+.addUnderline {
+    color: #6F7800;
+    font-family: "bankia-medium";
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+ .enlaceModificar{
+ 	color: #6F7800;
+ 	font-family: "SourceSansPro-Semibold";
+ }
+ 
+  .enlaceModificar:hover {
+ 	color: #9FAD00;
+ 	font-family: "SourceSansPro-Semibold";
+ }
+ 
+  .enlaceModificar:focus {
+ 	color: #9FAD00;
+ 	font-family: "SourceSansPro-Semibold";
+ }
+ 
+.str-titleLanding{
+	color: #35261 !important;
+ 	font-family: "Bankia-Bold !important";
+ 	font-size: 1.5625rem !important;
+	
+}
+
+.tipoLetraBankiaBold{
+ 	font-family: Bankia-Bold;
+}
+
+
+.str-titleLanding2{
+	color: #444444 !important;
+ 	font-family: "Bankia-Regular !important";
+ 	font-size: 1.25rem !important;
+	
+}
+ 
+  .bhs-content{
+    padding-bottom: 1.25rem !important;
+ 
+ }
+ 
+ .condicionesLegales{
+ 	display: block;
+ }
+ 
+ .bhs-headland{
+ 	padding-top: 1.5625rem !important;
+    padding-bottom: 1.25rem !important;
+ 
+ }
+ 
+ .alturaFija5{
+ 	height: 5rem;
+ 	padding-right: 1rem;
+ }
+ 
+ .alto_fondos{
+    min-height: 3.938rem !important;
+}
+ 
+ .alturaCategoria{
+ 	height: 5rem;
+ 	padding-top: 2rem !important;
+ 	width: 11rem;
+ }
+ 
+ .tamGraficas{
+ 	height: 12rem;
+ }
+ 
+ .nbr-riskPu{
+	     max-width: inherit !important;
+}
+  
+.captchaSuscripcionBoletines {
+	margin-right: 1em !important;
+}
+
+.desactivarDifuminar{
+	pointer-events: none!important;
+    opacity: 0.4!important;
+}
+
+.desactivarOcultar{
+	pointer-events: none!important;
+    opacity: 0!important;
+}
+.typeV { background: #DCF1C8!important; }
+
+.mod_title.tit-encabezado.enc-marg{
+	margin-bottom: 0.9375rem;
+}
+.tiny-listBull01:after{
+  margin-bottom: 0.9375rem;
+}
+
+.mod_homeDescription .hmd_description p {
+    margin-bottom: 1.375rem;
+    font-family: "SourceSansPro";
+}
+
+.margenSimPrivadaPlanes{
+	padding-top: 0rem !important;
+}
+
+.mod_newSimulador .mod_datatable__bleft.btnSM { width: 100%; }
+
+.mod_loading .mod_loadging__text { width: 100%; max-width: 27.6875rem; height: 1.75rem; padding: 0; display: block; vertical-align: middle; margin: 0 auto; position: relative; top: calc((100%)/2); text-align: center;}
+
+.mod_loading .mod_loadging__text .mod_loadging__text-txt { color: black; font-size: 1rem; font-family: "SourceSansPro-Semibold";}
+
+
+.mod_newSimulador .mod_card_selector .detail { padding: 0.625rem 0 0 0; text-align: center; }
+.mod_newSimulador .mod_card_selector .detail .link-style-simple { color: #6F7800; font-family: "bankia-medium"; font-size: 1rem; text-decoration: none; }
+.mod_newSimulador .mod_card_selector .detail .link-style-simple:hover { text-decoration: underline; }
+.sim-error__text-autos{ margin: 0rem 5.938rem 0rem 5.938rem; background: #F1F1F1; border-left: 4px solid #D63F3F; height: 5.5rem;}
+
+.sim-error__text-hipoteca{ margin: 0rem 5.938rem 0rem 5.938rem; background: #F1F1F1; border-left: 4px solid #D63F3F; height: auto; border-radius: 3px;}
+
+/*Estilos adaptacion simulador Autos publico*/
+.mod_newSimulador .mod_simulator_tabs .tabsim-listHead .tabsim-itemHead .tabsim-imgHead{ background: #B9C800 !important; border: 2px solid #B9C800 !important; }
+
+.mod_newSimulador .mod_simulator_tabs .tabsim-listHead .tabsim-itemHead .tabsim-imgOn { display: block !important; }
+
+.mod_newSimulador .mod_simulator_tabs .tab-subtext { color: #E36C0A !important; }
+
+.modalCoberturasTitle {font-family: "bankia-bold"; font-size: 1.563rem; text-align: center; padding-bottom: 3.125rem;}
+
+.legend-txt-disclaimer { font-size: 0.875rem; line-height: 120%; display: inline-block; font-family: "Sourcesanspro"; padding:0; color: #444444;}
+
+.subtitle { font-family: "SourceSansPro"; }
+
+.nsr_content .mod_cabecera-detalle { margin: auto; width: 90%; text-align:center; }
+
+.nsr_content.mod_new_simulador_autos .mod_cabecera-detalle { text-align:left; }
+
+.mod_new_simulador_autos .data-ico-E:after { display: block; font-size: 1.25rem; color: #82C2D2; }
+
+.simAuto_marg .data-ico-E:after { display: block; font-size: 1.25rem; color: #82C2D2; }
+
+.simHipoTool .data-ico-E:after { display: block; font-size: 1.25rem; color: #82C2D2; }
+
+.simHipoToolPrivada .data-ico-E:after { display: block; font-size: 1.25rem; color: #6F7800; }
+
+.modalCoberturasVidaNexo.mod_lightbox .modal-dialog .modal-content .mod_buttons + h4{font-family: "bankia-bold"; font-size: 1.563rem; margin-top: -2.188rem; text-align: center; padding-bottom: 3.125rem;}
+
+.modalCoberturasVidaNexo.mod_lightbox .modal-dialog{ padding-top: 10rem; }
+
+.mod_new_simulador_autos .form-control:focus {box-shadow: none;}
+
+.simAuto_marg .mod_contactabilityNew .ctn-figure {position: absolute;top: -3.125rem;left: 0;right: 0;display: block;width: 66px;background: #FFF;text-align: center;margin: 0 auto;}
+
+.sim-error__title-autos { font-family: "Sourcesanspro"; font-size: 1.375rem; color: #444444; margin-bottom: 0.5rem; position: relative;}
+.simu-error-subtitle-autos { font-family: "Sourcesanspro"; color: #444444; font-size: 1rem; padding-bottom: 1rem; }
+.sim-error-autos { margin: 1.250rem 2rem 1.250rem 4rem; padding-top: 1rem;}
+.sim-error__title-autos:before {content: "!"; font-family: "Sourcesanspro"; font-size: 1.313rem; color: #ffffff; background: #d63f3f; border-radius: 50%; width: 2rem; height: 2rem; padding-left: 0.825rem; padding-top: 0.125rem; position: absolute; left: -2.5rem;}
+#errorBoxMsgs .mod_buttonsSimulador{ margin-top: 2.5rem }
+
+/*Estilos adaptacion simulador Autos privado*/
+.mod_new_simulador_autos_privado .mod_form .frm-input:disabled, .mod_new_simulador_autos_privado .mod_form .frm-input-big:disabled, .mod_new_simulador_autos_privado .mod_form .frm-input-med:disabled, .mod_new_simulador_autos_privado .mod_form .frm-input-small:disabled, .mod_new_simulador_autos_privado .mod_form .frm-textarea:disabled { border-color: #AAAAAA; background: #EEEEEE; }
+.mod_new_simulador_autos_privado .btn.disabled, .mod_new_simulador_autos_privado .btn[disabled], .mod_new_simulador_autos_privado fieldset[disabled] .btn { border-color: #AAAAAA; background: #EEEEEE; opacity:1;}
+.mod_new_simulador_autos_privado .btn.disabled:hover { border-color: #AAAAAA; background: #EEEEEE!important; opacity:1;}
+.mod_new_simulador_autos_privado .btn.disabled:focus { border-color: #AAAAAA; background: #EEEEEE!important; opacity:1;}
+.mod_new_simulador_autos_privado .mod_form .frm-input { font-family: "SourceSansPro"; font-size: 1rem; }
+.mod_new_simulador_autos_privado .mod_form .frm-input[disabled] { font-family: "SourceSansPro"; font-size: 1rem; color: #AAAAAA;}
+.mod_switch .sth_input[disabled] + .sth_txt { cursor: not-allowed; }
+.mod_new_simulador_autos_privado .simAuto_marg .mod_card_selector.cells .card_list_title { font-family: "SourceSansPro"; }
+.mod_newSimulador .mod_form .vehicles-privated.vistaContr { border-top: 0 !important; padding-top: 0rem !important; margin-top: 0rem !important; }
+.mod_new_simulador_autos_privado .btn_sel { padding-bottom: 1.875rem; }
+.sim-error-links-privado { display: block !important; }
+.mod_new_simulador_autos_privado .dropdown-menu.open .dropdown-menu.inner { overflow: auto !important; max-height: 8.75rem !important; }
+
+/*Estilos adaptacion simulador seguros salud*/
+.mod_newSimulador.mod_simuladorSalud .but-info { text-decoration:none; font-size: 1.25rem; color: #82C2D2; }
+.mod_newSimulador.mod_simuladorSalud .mod_select_bms .bootstrap-select.btn-group .dropdown-toggle.bs-placeholder .pull-left { color:#AAAAAA;}
+.mod_newSimulador.mod_simuladorSalud .mod_select_bms .bootstrap-select.bms_simple .dropdown-menu li.selected a, .mod_select_bms .bootstrap-select.bms_simple .dropdown-menu li.active a { background: #F0F4CB; }
+.mod_newSimulador .mod_form .frm-group--5.salud {border-bottom: 1px solid white !important;}
+.mod_simuladorSalud .bootstrap-select.btn-group .dropdown-menu.inner {position: static; float: none; border: 0; padding: 0; margin: 0; border-radius: 0; -webkit-box-shadow: none; box-shadow: none; max-height:157px !important;overflow-y: auto;}
+.mod_simuladorSalud .mod_select_bms .bootstrap-select.bms_simple .dropdown-menu .text { font-family: "SourceSans"; font-size: 1rem; }
+.mod_newSimulador .mod_buttons .but-green.green-button-life-associated.paso {margin-top: 1.875rem; margin-bottom: 1.875rem;}
+.mod_newSimulador .mod_buttons .but-green.green-button-life-associated.paso2 {margin-top: -0.125rem;}
+.mod_buttons.centrar {margin-bottom: 1.25rem;display: inline-block;width: 100%;text-align: center;}
+.mod_buttons .but-white.centrar {float: none !important;}
+.content-infoBlock.block_separator.health {padding-top: 1.5625rem;margin-top: 1rem;}
+.mod_newSimulador .mod_form.health .note-health.datePaso2 {width: 100%;font-size: 0.875rem;margin-top: 0.5rem; text-align: left;}
+.elimPadding {padding-top: 0.7rem !important;}
+.mod_newSimulador .mod_form.health .frm-label {padding-top: 1.25rem;color: #35261A !important;}
+.elimMarginComparativa {margin-top: 0.625rem !important; }
+.centrarErrorComparativa{text-align: center !important; margin-bottom: 1.5rem; margin-top: -1rem; }
+.centradoSpinner {text-align: center;}
+.letraCP {font-family: "SourceSansPro"!important; font-size: 1rem!important;}
+
+/*Estilos contactabilidad simuladores */
+.contactabilidadSimuladores .ctc-tel:before, .lightboxMini .ctc-tel:before { content: ""; border-top: none; width: 40px; height: 1px; position: absolute; top: 0; left: 0; right: 0; margin: auto;}
+.contactabilidadSimuladores .ctc-tel, .lightboxMini .ctc-tel {position: relative; margin-top: 0rem; padding-top: 0rem; font-family: "Bankia-medium";font-size: 1.6875rem;text-align: center;}
+.contactabilidadSimuladores .ctn-box, .lightboxMini .ctn-box { margin-top: 0rem; }
+/*Estilos calculadora Vida*/
+.mod_bannerHeaderCalculadora .bootstrap-select.btn-group .dropdown-menu.inner { max-height: 8.75rem !important; overflow-y: auto;}
+
+/*Estilos comparador fondos*/
+.mod_newSimulador_fondos .mod_switch_view .trigger:focus + .switch_button, .mod_newSimulador_fondos .mod_switch_view .trigger.focus-keyup + .switch_button {border: none;}
+.mod_newSimulador_fondos .mod_switch_view .button_list:checked + .switch_button {-webkit-box-shadow: inset 1px 2px 2px 1px #ABABAB;}
+.mod_newSimulador_fondos .mod_switch_view .button_card:checked + .switch_button {-webkit-box-shadow: inset 1px 2px 2px 1px #ABABAB;}
+.mod_newSimulador_fondos .mod_datatable .dtb-table .dtb-head tr.dtb-years th.sorting:after {opacity:0;}
+
+@media (max-width: 767px){
+	 	 .anchuraGastos{
+	  		width: 100% !important;
+	 	 }
+ }
+@media (max-width: 469px){
+		.desktopCV{
+	  		display: none;
+	 	 }
+ }
+  
+@media (min-width: 470px){
+	.movilCV{
+  		display: none;
+ 	 }
+
+ }
+ 
+ @media (min-width: 768px){
+	 @media (max-width: 1199px){
+	 	 .centrarGastos{
+	  		margin-left: -2.5rem;
+	 	 }
+	 }
+ }
+ 
+
+.mod_bannerMorti { position: relative; width: 100%;  margin: 0 auto; }
+.mod_bannerMorti label { width: 100%; }
+.mod_bannerMorti .mod_banner-form { position: relative; display: inline-block; text-align: center; box-sizing: border-box; }
+.mod_bannerMorti .mod_banner-form .frm-message-error .msg_icon_money{background-color:#FAF0F3; color:#44444;}
+.mod_bannerMorti .mod_banner-form .frm-message-error .msg_icon_moneyPrestamo{background-color:transparent; color:#44444;}
+.mod_bannerMorti .mod_banner-form .frm-message-error .msg_year{background-color:#FAF0F3; color:#44444;}
+.mod_bannerMorti .mod_banner-form .frm-label { position: relative; padding: 0 1.875em; margin-bottom: 0; font-size: 0.875rem; line-height: 1.3125rem; color: #666666; }
+.mod_bannerMorti .mod_banner-form .frm-input { position: relative; margin: 1.2em 0 0em 0; padding: 0.5em 2.1875em 0.5em 0.6875em; width: 100%; font-family: 'SourceSansPro'; font-size: 16px; color:#44444;border: 1px solid #B9C800; border-radius: 0.3125em; box-sizing: border-box; background: transparent}
+.mod_bannerMorti .mod_banner-form .frm-input::-webkit-input-placeholder { color: #000000; }
+.mod_bannerMorti .mod_banner-form .frm-input:-moz-placeholder { /* Firefox 18- */ color: #000000; }
+.mod_bannerMorti .mod_banner-form .frm-input::-moz-placeholder { /* Firefox 19+ */ color: #000000; }
+.mod_bannerMorti .mod_banner-form .frm-input:-ms-input-placeholder { color: #000000; }
+.mod_bannerMorti .mod_banner-form .msg_icon_money { background: url("../images/modules/banner/icon_euro.png") no-repeat center right; }
+.mod_bannerMorti .mod_banner-form .msg_icon_moneyPrestamo { background: url("../images/modules/banner/icon_euro.png") no-repeat center right; }
+.mod_bannerMorti .mod_banner-form .msg_month { background: url("../images/modules/banner/icon_month.png") no-repeat center right; }
+.mod_bannerMorti .mod_banner-form .frm-fieldGroup { margin: 0.625em 0 0 0; }
+.mod_bannerMorti .mod_banner-form .frm-fieldGroup .frm-item { position: relative; display: inline-block; margin: 0 0.625em 0 0; }
+.mod_bannerMorti .mod_banner-form .frm-input-radio { position: absolute; left: -9999px; }
+.mod_bannerMorti .mod_banner-form .frm-input-radio + .frm-label { padding: 0 0 0 2.1875em; font-family: 'SourceSansPro'; font-size: 0.9375em; cursor: pointer; }
+.mod_bannerMorti .mod_banner-form .frm-input-radio + .frm-label:after { content: ""; position: absolute; left: 0; top: 0; width: 1.5625rem; height: 1.5625rem; border-radius: 4px; background: url("../images/modules/forms/radio.png") no-repeat center center; }
+.mod_bannerMorti .mod_banner-form .frm-input-radio:checked + .frm-label:after { background: url("../images/modules/forms/radio-checked.png") no-repeat center center; }
+.mod_bannerMorti .mod_banner-form .frm-input-radio:focus + .frm-label:after { border: 2px solid #B9C800; border-radius: 100px; }
+.mod_bannerMorti .mod_banner-form .but-green { margin: 1.625em 0 0 0; padding:0.375rem 0.625rem; }
+.mod_bannerMorti .legend-title { text-align: center; width: 100%; padding: 0.3em 0 0 0; font-family: 'Bankia-medium'; font-size: 1.8125em; }
+.mod_bannerMorti .legend-message { display: block; text-align: center; padding: 3px 0 0 0; font-family: 'Bankia-regular'; font-size: 1.0625em; }
+.mod_bannerMorti .legend-txt { position: relative; margin: 0 auto; padding: 0 0 0.375em 0; font-size: 1.0625em; font-family: 'Bankia-regular'; }
+.mod_bannerMorti .legend-txt:before { content: ''; border-bottom: 0.125em solid #B9C800; width: 100%; position: absolute; left: 0; bottom: 0; }
+.mod_bannerMorti .legend-span-title { display: block; text-align: center; }
+.mod_bannerMorti .one { padding: 1.125rem 0 0 0; font-size: 1.25rem; font-family: 'Bankia-bold'; }
+.mod_bannerMorti .two { padding: 0rem 0 0 0; font-size: 1.375rem; font-family: 'Bankia-medium'; }
+.mod_bannerMorti .link-style-simple { display: block; margin: 0.875em 0 0 0; font-size: 1em; font-family: 'SourceSansPro'; text-align: center; text-decoration: none; color: #747374; }
+.mod_bannerMorti .legend-span-price { display: block; text-align: center; font-size: 3.0625rem; font-family: 'SourceSansPro-Bold'; line-height: 0.9em; color: #B9C800; }
+.mod_bannerMorti .legend-span-price .legend-span-price-s { font: 2.5625rem "Bankia-bold"; padding-right: 5px; }
+.mod_bannerMorti .legend-info-txt { display: block; font-size: 0.875em; font-family: 'SourceSansPro'; text-align: center; text-decoration: none; color: #968A83; }
+.mod_bannerMorti .but-oranje { margin: 2.375em 0 0 0; }
+.mod_bannerMorti .mod_banner_title_generic { font-family: "bankia-bold"; font-size: 3.0625em; padding: 4.375em 2.125em 0.625em 2.125em; }
+.mod_bannerMorti .mod_banner_title_generic:after { content: ''; position: relative; display: block; margin: 0.3125em auto 0 auto; width: 10%; height: 0.0625em; background: #000000; }
+.mod_bannerMorti .txt-banner-simple { font-family: "Bankia-regular"; font-size: 1.875em; padding: 0 2.125em; }
+.mod_bannerMorti .txt-banner-simple:last-child:after { content: ''; position: relative; display: block; width: 0.9375em; height: 0.5em; margin: 0.3125em auto 0 auto; }
+.div-buttons-contratar{margin-left: 3rem!important; width: 7.938rem!important; }
+.div-buttons-contratar .but-oranje {border: 1px solid #FF9E1B!important; }
+
+.enlaceLandingOnboarding{
+	font-size: 1rem;
+    color: #6F7800;
+    position: relative;
+    display: inline-block;
+    font-family: "SourceSansPro-Semibold";
+    line-height: 120%;
+}
+.textoOnboarding{
+	display: block;
+    padding: 1.25rem 0 1.875rem;
+    font-family: "SourceSansPro";
+    font-size: 1rem;
+    line-height: 140%;
+    color: #444444;
+    text-align: center;
+}
+
+.capcha-txt-small{ font-size: 15px!important;}
+.complete .img-finish-progressbar.progressbar-clock {
+background: url("../images/modules/progressbar/Tu_Pension_verde.svg") no-repeat center center;
+}
+.mod_bannerHeaderSection .bhs-list1 { vertical-align: middle; display: inherit; padding: 0rem 0; }
+
+.textDistribuidora { display: block; padding: 0.625rem 0 0rem; text-align: center; font-family: "bankia-medium"; font-size: 1.125rem; color: #332619; }
+.no-complete .img-finish-progressbar.progressbar-clock {
+background: url("../images/modules/progressbar/Tu_Pension_gris.svg") no-repeat center center;
+height:2.8rem;  }
+
+/* Estilo Solicitar Prestamos */
+@media (min-width: 768px){
+	@media (max-width: 1200px){
+		.solicitarDonut{
+			top:-5rem;
+			margin: 0rem 7.5rem !important;
+			position:relative;
+		}
+		.acercarDonut{
+			margin-top: -2rem !important;
+		}
+	}
+
+ }
+ 
+/* cambio de color en el enlace al clicar buscador fondos padre*/
+.dtb-link.tituloContenidoLista:focus {color: #6F7800 ;}
+ 
+/*estilos sim oip*/
+.margenSimPrivada{
+ 	padding-top: 0rem !important;
+ }
+ 
+/*Estilos modo desktop solo*/
+@media (min-width: 1200px) {
+	.ajusteMargAgrario{
+		min-height: 30rem;
+	    padding-top: 6rem;
+	}
+	
+	.width33{
+	 	width: 33% !important;
+	}
+	
+	.cajaEnvioMensaje3b{
+		padding: 2.5rem 4.2rem;
+	}
+	
+	.simboloMasSimuladores{
+		position: absolute; 
+		left: 600px;
+	}	
+	
+	.marginTopLess{
+		margin-top: -5rem;
+	}
+	
+	.nsr_content .content-infoBlock.dtb-table-box { left: 4%; }
+	.mod_infoDestacadaPlanesNew.details_tag .idn-col3.BF { padding-left: 1rem;}
+	/*catalogo servicios 2 columnas*/
+	.estiloDescripcion { width: 28.5rem; height:3.25rem; font-family: 'SourceSansPro';}
+	.estiloLineaSeparacion { width: 60.625rem!important;}
+	.quitarMargenIzquierda{ margin-left: -0.4rem; }
+	.catalogo2Columns{ padding-top: 0.7rem!important; }
+	.padTopTit{ padding-top: 0.4375rem!important;}
+	.ajustarIzquierda { padding-left: 0rem!important; }
+	.estiloBarraVerde { width: 60.625rem!important; }
+	/*catalogo productos 1 categoria*/
+	
+	.descripcionIzquierda{ padding-left: 0px!important; margin-left: 1.75rem; }
+	.estiloDescripcion1Categoria{ width: 46.25rem; height:3.25rem; font-family: 'SourceSansPro'; }
+	.paddingTop{ padding-top: 0.2rem!important; }
+	.widthLineaTablet{ width: 60.625rem!important; }
+
+	.mod_moduleTools2cols .mts-item.linea-right:first-child{ width: 27.25rem!important; }
+	.mod_moduleTools2cols .second_col{ width: 30.69rem!important; }
+	.mod_moduleTools2cols .mts-img img { margin-left: -1.5625rem!important; }
+	.mod_moduleTools .second_col .mts-img img { margin-left: -0.5625rem!important; }
+	.mod_moduleTools .second_col .mts-box { padding-left: 3.75rem!important; }
+	
+	/* estilos para el selector de la ficha de fondos padre*/
+	.mod_select_bms.bms-content .bootstrap-select .opt-item:first-child { padding-left: 1.2rem; margin-left: 1.2rem; }
+	.mod_select_bms.bms-content .bootstrap-select .opt-item { padding-left: 1.2rem; margin-left: 1.2rem; }
+	/* estilos para alinear la categoria del buscador*/
+	 .mod_fund_accordions .acc-title.BF { font-family: "SourceSansPro"; margin-bottom: 0; display: inline-block;width: 28% }
+	 /* estilos para simulador autos publica*/
+	 .mod_newSimulador .mod_vehicles_table .mod_vehicles_table--cell{ width: 38%; }
+	 .mod_newSimulador .mod_card_selector.vehicles .cell_right { text-align: left; }
+	 .mod_newSimulador .mod_card_selector .cards_container .mod_buttons{ text-align: center;}
+	 
+	 .mod_newSimulador .mod_new_simulador_autos .mod_select_bms.bms-content.vehicles .bootstrap-select .optcell-cambio { min-width: 3.875rem; }
+	 .mod_newSimulador .mod_select_bms.bms-content.vehicles .bootstrap-select.btn-group .dropdown-toggle .optcell-cambio { min-width: 4.063rem }
+	 .centrarCP{ width: 14.5% }
+	 .desktopCP{ width: 26%; margin-left: 21.6rem }
+	 .espacioFormulario {min-height: 5rem}
+	 .espacioClasePermiso {min-height: 6rem}
+	 .espacioSexo{min-height: 6.5rem}
+}
+
+
+/*Estilos modo tablet solo*/
+@media (max-width: 1200px) { 
+	@media (min-width: 768px) { 
+		.width33{
+		 	width: 32% !important;
+		 	padding-left: 1rem !important;
+		}
+		
+		.cajaEnvioMensaje3b{
+			padding: 2.5rem 1.2rem;
+		}
+	
+		.simboloMasSimuladores{
+			position: absolute; 
+			left: 420px;
+		}
+		/*catalogo productos 1 categoria*/
+		.paddingTopTablet{ padding-top: 0.5rem!important; }
+		.widthLineaTablet{ width: 45rem!important; }
+		.estiloDescripcion1Categoria{ width: 33.75rem; height:3.25rem; font-family: 'SourceSansPro'; }
+		.margenesCatalogosTitulos{ padding-left: 0.625rem!important; padding-right: 0.625rem!important; margin-left: 0rem!important; margin-right: 0rem!important;}
+		
+		.mod_moduleTools2cols .mts-item.linea-right{ width: 21.13rem!important; }
+		.mod_infoDestacadaPlanesNew.details_tag .idn-col1.BF { width: auto; }
+		.mod_infoDestacadaPlanesNew.details_tag .idn-col4.BF { width: inherit; }
+		.mod_infoDestacadaPlanesNew .idn-boxAnios-list.BF {width: 90%;}
+		.mod_info_text .idn-link-text.BF {font-size: 0.9rem;}
+		
+		/* estilos para alinear la categoria del buscador*/
+	 	.mod_fund_accordions .acc-title.BF { font-family: "SourceSansPro"; margin-bottom: 0; display: inline-block;width: 25% }
+		
+		/* estilos para simulador autos publica*/
+		.mod_newSimulador .mod_vehicles_table .mod_vehicles_table--cell{ width: 38%; }
+		.mod_newSimulador .mod_simulator_tabs .tabsim-linkText { min-height: 4.438rem; }
+		.mod_newSimulador .mod_card_selector .cards_container .mod_buttons{ text-align: center;}
+		.mod_bannerHeaderCalculadora .mod_bannerMort.mini-calculator .mod_banner-form.banner_calculator .results-title.results-title-second { margin-top: 0rem; }
+		.mod_bannerHeaderCalculadora .mod_bannerMort.mini-calculator .mod_banner-form.banner_calculator .results-capital-value {margin-bottom: 0.9375rem; margin-top: -0.625rem; }
+		.mod_newSimulador_vida.mod_newSimulador .mod_buttons .but-default.but-default--sim { padding: 0.75rem 0.625rem !important; }
+		.fechancasegurado { min-height: 116px; } 
+		.centrarCP{ width: 20% }
+		.tabletCP { padding-left: 0px; }
+		.espacioFormulario {min-height: 7rem}
+		.alineadoCentroTablet {margin-left: 36%!important;}
+	}
+}
+
+/*Estilos modo movil solo*/
+@media (max-width: 767px) { 
+	
+		.cajaEnvioMensaje3b{
+/* 			margin-top: 13.5rem; */
+			padding: 2.5rem 4.2rem;
+		}
+	
+		li#idSimboloMasSimuladores{
+			display:none;
+		}
+		
+		span#id-level-03-button{
+			display:none;
+		}
+		/*catalogo productos 1 categoria*/
+		.widthLineaTablet{ width: 95%!important; margin-left: 0.9375rem!important; }
+		.paddingsTarjeta{ padding-bottom: 1.0625rem!important; padding-top: 1.5rem!important; }
+		.estiloTituloDescripcion{ max-width: 95%; margin: 0 auto; }
+		.estiloDescripcionMovil{ display: block!important; }
+		.margenBot1Rem{ margin-bottom: 1.6rem!important; }
+		.anchuraImagenDescripcion{ padding-left: 0.25rem!important; }
+		
+		.alingImporteGastos{ text-align: right;}
+		.borderZero{ border: 0px!important;}
+		.fbp{ display: block!important; }
+		.newMas { display: none; }
+		.verDesglose{ display: none; }
+		
+		.graficasIE{width: 100%; height:10rem;}		
+		
+		.popUpCalcVidaNexo{padding-left: 0rem;padding-right: 0rem;}
+		 
+		.mobileHidden { display: none !important;}
+		.mod_newSimulador .mod_ficha_fondos .modal_fill .data_info_gastos .data_info_title { width: 62% !important;}
+		.legndComisionesMobile { font-family: "SourceSansPro"; content: attr(data-th); display: inline-block; vertical-align: top; font-size: 0.875rem; text-align: center; float: left; width: 100%;}
+		
+		/* estilos para simulador autos publica*/
+		.mod_newSimulador .mod_card_selector .detail { text-align: left; }
+		.mod_newSimulador .mod_card_selector.cells .card_list .mod_buttons { display: block; }
+		
+		.mod_newSimulador .mod_card_selector.vehicles.cars .vehicle_selector_cards { border-top: none; }
+		.mod_newSimulador .content-infoBlock .cols_2 .tabs_block { width: 32%; }
+		.mod_newSimulador .content-infoBlock .infoBlock__list02 {display: table;}
+		.mod_newSimulador .content-infoBlock .infoBlock__item {display: table-cell;}
+		.movilCP { margin-top: -6.812rem; margin-left: -0.812rem; } 
+		.numpersonasCP { padding-top: 2.25rem !important;}
+		.textoPaso2 { width: 100%!important; text-align: left!important; }
+		.centrarCP{ width: 46% }
+		.centrarErrorComparativaFondosMovil{margin-left: -44%; }
+		.coPagoMovil {text-align: left;width: 37%;}
+        .mod_newSimulador .mod_compare_table .infoImg-txt.movil {font-size: 0.75rem !important;line-height: 1rem;text-align: center;color: #444444;font-family: SourceSansPro;}
+        .mod_newSimulador .mod_compare_table .table_body .table_cell.centrado {font-family: "SourceSansPro-bold";display: inline-block;vertical-align: top;text-align: center !important;width: 100%;padding: 0.375rem 0;border-bottom: 0.0625rem solid #979797;}
+        .cajaSalud{ margin-bottom: 0.5rem !important;}
+        .centrarCopago {width:100%;text-align: center !important;}
+        .alturaFormuarioInicioSimuladorHipotecaNuevo { padding: 0 !important; }
+        .mod_calculadora_content { padding-top: 40px; }
+}
+
+/*Estilos modo tablet y movil*/
+@media (max-width: 1199px) { 
+		.centradoTablet {text-align: center;}
+		.margenesCatalogos{ padding-left: 0.625rem!important; padding-right: 0.625rem!important; margin-left: 0rem!important; margin-right: 0rem!important;}
+		.mod_imgBotWebPrivada{ background: none; }	
+		.mod_newSimulador .margenSimPrivadaPlanes:before{ background: none; }
+		.mod_newSimulador .margenSimPrivadaPlanes:after{ background: none; }
+		.mod_newSimulador .margenSimPrivada:before{ background: none !important; }
+		.mod_newSimulador .margenSimPrivada:after{ background: none !important; }
+		.simAuto_marg { width: 95%; margin: auto; }
+		.mod_newSimulador .mod_new_simulador_autos .mod_select_bms.bms-content.vehicles .bootstrap-select .optcell-version { width: 45% !important; }
+		.mod_newSimulador .mod_new_simulador_autos .mod_select_bms.bms-content.vehicles .bootstrap-select .optcell-fecha { width: 20% !important; }
+		.mod_newSimulador .mod_new_simulador_autos .mod_select_bms.bms-content.vehicles .bootstrap-select .optcell-cv { width: 18% !important; }
+		.mod_newSimulador .mod_select_bms.bms-content.vehicles .bootstrap-select.btn-group .dropdown-toggle .optcell-version { width: 47% !important; }
+		.mod_newSimulador .mod_select_bms.bms-content.vehicles .bootstrap-select.btn-group .dropdown-toggle .optcell-fecha { width: 20% !important; }
+		.mod_newSimulador .mod_select_bms.bms-content.vehicles .bootstrap-select.btn-group .dropdown-toggle .optcell-cv { width: 19% !important; }
+		.optcell-puertas { display: none !important; }
+		.optcell-cambio { display: none !important; }
+		.mod_newSimulador_fondos .simfondo_marg { width: 95%; margin: auto; }
+		.mod_newSimulador_fondos .mod_graphic_dots .graphic_container {position: inherit}
+		.mod_newSimulador_fondos .mod_graphic_dots .graphic_legend {display: inherit}
+		.mod_newSimulador_fondos .mod_graphic_dots {padding: 0rem 0.9375rem 2.5rem}
+}
+
+/*Estilos modo tablet y desktop solo*/
+
+	@media (min-width: 768px) { 
+		.legndComisionesMobile { display: none;}
+		/*catalogo productos 1 categoria*/
+		.margenBot1Rem{ margin-bottom: 1rem!important; }
+		.margenBot05Rem{ margin-bottom: 0.5rem!important; }
+		.alturaBotonLinea { margin-bottom: -0.6rem; }
+		.paddingsTarjetaSinImagen{ padding: 0rem!important;}
+		
+		.paddingWidgetVV{ padding-top: 8.5rem;}
+		
+		.alingImporteGastos{ text-align: right; padding-right: 5%;}
+		.right_pad{padding-right: 3rem!important;}
+		.borderTop{	border-top: 0px!important;
+					width: 65%!important;}
+		.borderZero{ width: 90%!important;}
+		.newMas{ width: 5%!important;}
+		.anchoBankiaTeAporta{ width: 30%!important;}
+		.widthSolicitar{ width: 12.5rem!important; }
+		.verDesglose{text-align: right;}
+		.verDesgloseMovil{visibility: hidden; }	
+		.ocultaParteTuAmortizacion{height: 15.5rem;}
+		.fuenteGastos{	font-family: "bankia-bold"!important;
+    					font-size: 1.575rem!important;
+						padding-top: 0.8rem!important;}	
+		.solicitarDerecha{ text-align: right!important;}
+		.widthSolicitar{ width: 12.5rem!important; }
+		
+		.cell_left_SimSalud{
+			width: 65% !important;
+		}
+		
+		.cell_right_SimSalud{
+			width: 33% !important;
+		}
+		
+		.but-link { position: relative; color: #6F7800; font-family: "SourceSansPro-Semibold"; font-size: 1.0375rem; }
+		.but-link:after { content: url("../images/modules/icons/ico-arrow-right-green-s.png"); margin-left: 0.3125rem; }
+		.but-link:hover { color: #9FAD00; }
+		.but-link:hover:after { content: url("../images/modules/icons/ico-arrow-right-green-s-hover.png"); }	
+		.graficasIE{width: 100%; height:25rem;}	
+		.nr-pantalla-movil {display: none;}
+		.tablaComparativa { margin-top: 0rem !important; }
+		.mod_vehicles_tabla { border-top: none !important; }
+		.mod_vehicles_cabeceraTabla { font-family: "SourceSansPro-semibold"; font-size: 1rem; color: #444444; border-bottom: 0.375rem solid #B9C800;}
+		.mod_vehicles_cabeceraTabla .mod_vehicles_table--cell{border-top: none !important; padding-bottom: 0.5rem !important;}
+		.modalCoberturas{width: 33.5rem !important;}
+		.table-cell-padding-tueliges{ padding-bottom: 3.125rem!important; }
+		.mod_simuladorSalud .mod_form .slt-group-3.life-associated-group .slt-select-1 {width: 26%;margin-right: 0.938rem;margin-left: 0.938rem;}
+	}
+
+/*Estilos todos los modos*/
+		.centrarPantalla { margin: 0 auto; }
+		
+		.ajustarMargenTop { margin-top: 0.2rem!important; }
+		.anchuraLinea{ border-bottom-width: 0.125rem!important;} 
+		.colorTituloCatalogo{ color: #35261A!important;} 
+		.filasVidaNexo{border-top: 0.0625rem solid #d8d8d8;margin-bottom: 0.5rem;padding-top: 0.5rem;margin-left: 0.5rem; margin-right: 0.5rem}
+		.filasVidaNexoCalc{padding-bottom: 0.5rem;padding-top: 0.5rem;}
+		
+		
+
+
+
+/*Estilo para la calculadora*/
+@media (min-width: 1200px) { 
+.mod_bannerMorti .mod_banner_title_generic { font-family: "bankia-bold"; font-size: 3.0625em; padding: 4.375rem 2.125em 0.3125em 2.125em; }
+.mod_bannerMorti .mod_banner_title_generic:after { content: ''; position: relative; display: block; margin: 1.5rem auto 0 auto; width: 10%; height: 0.0625em; background: #000000; }
+.mod_bannerMorti .mod_banner-form { width: 20rem; }
+
+.mod_bannerMorti .txt-banner-simple { line-height: 2.125rem; }
+.mod_bannerMorti .txt-banner-simple:last-child:after { margin: 2.625rem auto 0 auto; width: auto; height: 1.25rem; background: url("../images/modules/banner/icon-arrow-down.png") no-repeat center center; background-size: auto; }
+.mod_bannerMorti .txt-banner-simple { font-family: "Bankia-regular"; font-size: 1.875em; padding: 0 2.125em; }
+.mod_banner-align-center { text-align: center; }
+.mod_form .frm-fieldset { display: block; padding: 0.625rem 0; }
+
+
+
+
+
+.complete .img-finish-progressbar.progressbar-clock {
+background: url("../images/modules/progressbar/Tu_Pension_verde.svg") no-repeat center center;
+}
+
+.mod_progressbarStages .group-progressbar .img-progressbar { -ms-transform: rotate(-90deg); /* IE 9 */ -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */ transform: rotate(-90deg); height: 2.8rem; }
+
+.no-complete .img-finish-progressbar.progressbar-clock {
+background: url("../images/modules/progressbar/Tu_Pension_gris.svg") no-repeat center center;
+}
+ 
+.no-complete .group-progressbar .txt-finish-progressbar { -ms-transform: rotate(-90deg); /* IE 9 */ -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */ transform: rotate(-90deg); padding-top:1rem;}
+
+.complete .group-progressbar .txt-finish-progressbar { color: #B9C800; padding-top:1rem; }
+
+.no-complete .img-finish-progressbar.progressbar-clock {
+background: url("../images/modules/progressbar/Tu_Pension_gris.svg") no-repeat center center;
+height:2.5rem; }
+
+.mod_bannerMort .mod_banner-form .msg_months { background: url("../images/modules/banner/icon_months.png") no-repeat center right; }
+
+
+.tituloDistribuidora { float: left; width: 100%; }
+
+.mod_contactability .circuloDistribuidora { text-align: center; padding-bottom: 2rem; }
+
+.mod_contactability .circuloDistribuidora:after { content: attr(data-icon); display: block; font-size: 3.0rem; position: absolute; left: 50%; margin-left: -2.75rem; top: 0; line-height: 1.4em; border-radius: 7.125rem; border: 0px solid #6F7800; width: 5rem; height: 5rem;z-index: -1; }
+
+.dwd-item .dwd-right .dwd-size { margin-right: 2.5rem !important; }
+
+.mod_colectiveAlt { margin-top: 0rem !important; }
+
+.mod_homeDescription .hmd_mainTitleLeft { font-family: 'Bankia-regular'; font-size: 2.1875rem; color: #444444; margin: 1.6875rem 0; font-weight: bolder; }
+
+.mod_search.mod_catalogfunds .ctf-checkboxGroup, .mod_catalogfunds.mod_catalogfunds .ctf-checkboxGroup { margin-top: 0.875rem; margin-left: 2.275rem !important;}
+
+.mod_bannerMort .mod_banner-form .msg_year { background: url("../images/modules/banner/icon_anios.png") no-repeat center right; }
+
+.mod_contactabilidad {margin-top: 1.2em;}
+
+.infobolsa-container{ margin-top: 3.125rem; }
+
+.infobolsa-container h2 {
+  font-size: 1.2rem;
+  margin: 0 0 1rem 0;
+}
+
+.ifb-indices { margin: 1rem auto 1rem auto; }
+
+.botonInputbusc {
+	margin: 0 0 0 0.875rem !important;
+  width: 7.1875rem !important;
+  padding: 0.3125rem 0.6875rem !important;
+  font-family: "bankia-medium" !important;
+  font-size: 0.8125rem !important;
+  line-height: 140% !important;
+  color: #35261A !important;
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  -ms-border-radius: 5px !important;
+  border-radius: 5px !important;
+  }
+  
+  .hdr-navPlan { width: 80% !important;}
+
+}
+
+
+
+/* Movil +*/
+@media (max-width: 319px) { /* aqui los estilos para movil y superior*/ 
+
+	.hdr-logo-imgPlan { display: block; width: 8rem;}
+}
+/* End Movil + */
+/* Movil */
+@media (max-width: 767px) { /* aqui los estilos para movil y superior*/ 
+	.mod_progressbarStages .group-progressbar .img-progressbar{
+		transform: rotate(-0deg);
+	}
+	.no-complete .group-progressbar .txt-finish-progressbar{
+		transform: rotate(-0deg);
+		color: rgb(155, 155, 155);
+	}
+
+	.no-complete .img-finish-progressbar.progressbar-clock{
+		background-position: -6.25em 0;
+		height: 2.8rem;
+		color: rgb(155, 155, 155);
+	}
+	
+	.hdr-logo-imgPlan { display: block; width: 8rem;}	
+}
+/* Tablet + */
+@media (min-width: 48rem) { /* aqui los estilos para tablet y superior */ 
+
+.mod_bannerHeaderSection .bhs-list1 { display: table-cell; }
+.hdr-logo-imgPlan { width: 5.625rem;}
+.hdr-logo-Plan { top: -2.1875rem !important; }
+.mod_moduleTools .mts-item-colectivo { min-height: 9.625rem !important; }
+.alt-con-zon{height:78rem;}
+.margenSimPrivadaPrestamos{
+	padding-top: 0rem !important;
+	min-height: 27rem;
+}
+
+/* Estilos simulador autos */
+		.img-youchoose{ padding-left: 2.1875rem; }
+		.img-youchoosecomp{ margin-top: 0.5rem; }
+		.mod_vehicles_tabla{ border-top: none !important; }
+		.mod_vehicles_tabla_border { border-bottom: none !important; }
+		.cabeceraTablaAutos .mod_vehicles_table--cell { border-top: none !important; }
+		.franquicia_text { font-family: "bankia-medium" !important; margin-left: 0 !important; font-size: 1.875rem !important; line-height: 1 !important; text-align: left !important;}
+}
+/* Estilos simulador salud */
+		.mod_newSimulador .mod_compare_table .salud .table-title { font-size: 1.5625rem; color: #35261A; min-height: 4.4375rem;}
+		.mod_newSimulador .mod_compare_table .salud .table_row .table_cell:first-child {min-width: 15.9375rem;color: #444444;}
+		.mod_newSimulador .mod_compare_table .salud .text_dest-03 {font-family: "SourceSansPro"; font-size: 1rem;}
+		.mod_newSimulador .mod_compare_table .salud .text_dest-00 {font-family: "SourceSansPro";font-size: 1rem;color: #444444;}
+		.mod_newSimulador .mod_compare_table .salud .table-headtop {display: block;min-height: 6.5rem;padding-bottom: 0.5rem;position: relative;margin-top: 0.625rem;}
+		.mod_newSimulador .mod_card_selector .mod_buttons .salud { margin-bottom: 1.25rem; display: inline-block; width: 100%; text-align: center;}
+		.mod_newSimulador .mod_card_selector.health .card_list_title { min-height: inherit; height: inherit; color: #444444; font-family: "SourceSansPro"; font-size: 1rem;}
+		.mod_newSimulador .mod_card_selector.health .card_list_titleMovil { min-height: inherit; height: inherit; color: #444444; font-family: "SourceSansPro"; font-size: 1rem;}
+		.mod_newSimulador .mod_vehicles_table .mod_vehicles_table--cell.producto { width: 31%; }
+		.mod_newSimulador .mod_vehicles_table .mod_vehicles_table--cell.copago { width: 33%; }
+		.mod_newSimulador .mod_vehicles_table .mod_vehicles_table--cell.cuota { width: 36%; }
+		.mod_newSimulador .mod_vehicles_table .mod_vehicles_table--cell.cuota .cell_right { text-align: left;}
+		.mod_newSimulador .mod_vehicles_table .mod_vehicles_table--cell.solicitar { width: 33%; }
+		.mod_newSimulador .mod_card_selector.health .insurance_subtext.fechas { margin-top: -1rem;width: 168%; }
+		.mod_newSimulador .mod_card_selector.health .insurance_subtext.fechas_finanno {margin-top: 1rem;width: 180%;}
+		.mod_newSimulador .mod_cabecera-fin.salud {min-height: 5.313rem;}
+		
+
+/* End Tablet + */
+/* Escritorio + */
+@media (min-width: 75rem) { /* aqui los estilos para escritorio y superior */ 
+.legend-txt-disclaimer{padding-top: 0.625rem; padding-bottom: 0.625rem; }
+.mod_bannerHeaderSection .bhs-list1 { display: table-cell; }
+.analiticaContratar{ margin-left: 0.875rem; }
+.hdr-logo-imgPlan { width: 7.75rem; margin-top: -0.75rem;}
+.hdr-logo-Plan { top: auto !important; }
+.mod_header.mod_headerNew.sticky-wrapper .hdr-logo-miniMenu-Plan { width: 79% !important; }
+.mod_header.mod_headerNew.sticky-wrapper .hdr-logo-Plan { width: 20% !important; }
+.alt-con-zon{height:58rem;}
+.mod_newSimulador .mod_card_selector .category.data_info .data_info_value.mosaicoComp{ min-height: 3.81rem; }
+.mod_newSimulador .cells.mod_card_selector .mod_checkbox .mod_checkbox_label.mosaicoComp{ min-height: 3.56rem; }
+}
+/* End Escritorio + */
+/* Print */
+@media print { /* aqui los estilos para print */ }
+/* End Print */
+
+
+.textoLegalAsterisco {
+		font-family: 'SourceSansPro';
+		font-size: 0.8125rem;
+		color: #666666;
+		line-height: 0.8rem;
+}
+
+
+.detalle_tth {
+    color: #4A4A4A;
+    font-family: "bankia-medium";
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.detalle_tth:hover {
+    color: #4A4A4A;
+    text-decoration: underline;
+}
+
+sup2 {
+    vertical-align: text-top;
+    font-size: 10px;
+    /* top: 0; */
+}
+
+/*Simulador de anticipos agrarios y prestamos parte privada*/
+	.tituloAgro{
+		font-size: 1.35rem !important;
+    	font-weight: bold !important;
+	}
+	
+	@media (max-width: 767px) { 
+		.botonNecesitas{
+			border: 1px solid #35261A;
+		    display: block;
+		    color: #35261A !important;
+		    font-size: 1rem;
+		    border-radius: 3px;
+		    text-align: center;
+		    font-family: "SourceSansPro-SemiBold";
+		    position: absolute;
+		    background: #ffffff;
+		    z-index: 99;
+		    top: -3.4375rem;
+		    right: 0rem;
+		    width: 1.875rem !important;
+		    height: 1.875rem;
+		    padding: 0.25rem 0.625rem;
+		}.botonNecesitasResult{
+			
+			right: 2.5rem !important;
+			top: 0rem !important;
+		}
+		.texto1Donut{
+			padding-top: 1.3125rem;
+    		float: left;
+    		font-family: 'Bankia-medium';
+    		font-size: 1rem !important;
+    		color: #4A4A4A;
+		}
+		.texto2Donut{
+			padding-top: 1.3125rem;
+    		float: left;
+    		font-family: 'Bankia-medium';
+    		font-size: 1rem !important;
+    		color: #4A4A4A;
+		}
+		
+		
+		.mod_sliderDonut .donut-span-message-first-simple-privada-titulo { float: center; font-family: "Bankia-medium"; font-size: 1rem; color: #4A4A4A; }
+		.mod_sliderDonut .donut-span-message-first-simple-privada-cuota { padding-top: 1.3125rem; float: left; font-family: "Bankia-medium"; font-size: 1rem; color: #4A4A4A; }
+	}
+	
+	@media (max-width: 1200px) { 
+	@media (min-width: 768px) { 
+		.botonNecesitas{
+			border: 1px solid #35261A;
+			display: block;
+			color: #35261A !important;
+			font-size: 1rem;
+			width: 10.625rem !important;
+			border-radius: 3px;
+			text-align: center;
+			padding: 0.375rem 1.3125rem;
+			font-family: "SourceSansPro-SemiBold";
+			position: absolute;
+			background: #ffffff;
+			z-index: 99;
+			left: inherit;
+			right: 0rem;
+			top: -3.25rem;
+			height: inherit;
+			text-decoration: none;
+		}
+		.botonNecesitasResult{
+			
+			right: 2rem !important;
+			top: 1rem !important;
+		}
+		.texto1Donut{
+			padding-top: 0rem !important;
+		    display: block;
+		    float: none;
+		    font-family: "SourceSansPro-semibold";
+		    font-size: 1.25rem !important;
+		    color: #322618;
+		}
+		.texto2Donut{
+			padding-top: 0.1rem !important;
+		    display: block;
+		    float: none;
+		    font-family: "SourceSansPro-semibold";
+		    font-size: 1.25rem !important;
+		    color: #322618;
+		}	
+		
+		.mod_sliderDonut .donut-span-message-first-simple-privada-titulo { padding-top:0rem; display: block; float: none; font-family: "SourceSansPro-semibold"; font-size: 1.25rem; color: #322618; }
+		.mod_sliderDonut .donut-span-message-first-simple-privada-cuota { padding-top: 0.875rem; display: block; float: none; font-family: "SourceSansPro-semibold"; font-size: 1.25rem; color: #322618; }
+	}
+	}
+	@media (min-width: 1200px) {
+		.botonNecesitas{
+			border: 1px solid #35261A;
+			display: block;
+			color: #35261A !important;
+			font-size: 1rem;
+			width: 10.625rem !important;
+			border-radius: 3px;
+			text-align: center;
+			padding: 0.375rem 1.3125rem;
+			font-family: "SourceSansPro-SemiBold";
+			position: absolute;
+			background: #ffffff;
+			z-index: 99;
+			left: inherit;
+			right: 6rem;
+			top: -3.25rem;
+			height: inherit;
+			text-decoration: none;
+		}
+		.texto1Donut{
+			font-size: 1.5rem !important;
+			font-family:'SourceSansPro-semibold';
+		}
+		.texto2Donut{
+			font-size: 1.5rem !important;
+			padding-top:0.9rem;
+			font-family:'SourceSansPro-semibold';
+		}
+		
+		
+		.mod_sliderDonut .donut-span-message-first-simple-privada-titulo { padding-top:1.20rem; display: block; float: none; font-family: "SourceSansPro-semibold"; font-size: 1.25rem; color: #322618; }
+		.mod_sliderDonut .donut-span-message-first-simple-privada-cuota { padding-top:2.1125rem; display: block; float: none; font-family: "SourceSansPro-semibold"; font-size: 1.25rem; color: #322618; }
+		
+	}
+	
+	
+	
+.mod_switch .sth_list .sth_item {
+	margin: 0px;
+}

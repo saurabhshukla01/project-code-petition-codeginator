@@ -1,0 +1,28 @@
+1) when user stay at home page after login jump to home page .          
+2) when user stay at start petition after login jump to start petition url not home url .
+3) when user stay at my petition after login jump to my petition page url .
+4) when user stay at browser after login to jump on browser page .
+5) filter by category filter petition on home page .
+6) when user stay at any page after login then logout anywhere so jump on home page .
+7) when user stay at update page after login then logout so jump upon the home page not stay at update petition url
+Link :  http://petition.sheenz.in/petition/update-petition/5e75c138845ec
+8) when user come to broswer page list click on the petition title no any one sign this petition , click sign petition open login popup after logged user then sign this petition user count singed in 2 (but signed only 1)
+9) when user open Browser page not signed any petition user goto login after sign petition and go to share on whatapp open whatapp link user should not be display comment before on click sign petition / redirect to callupon website .
+10) when user login to go the start petition page fill form after submmited form goto to preview pop after sumitted to go to my petition page , then goto edit option go to update page then submitted back to my pettion page with editable data .
+11) my petition page edit button should be show then status should be admin approval , status should be change then edit button should be remove my petition page .
+12)  when user login to go the start petition page fill form after cancel then back to start petition page
+13)  my petition page edit button should be show then status should be admin approval , status should be change then edit button should be remove my petition page when status is approved .
+14) on click my petition page read more button click after go to petition details page .
+15) share on whatapp then not show any comment is like "yes i agree " when user not logged in  after log in the sign petition signed count should be increased (1  not 2 signed count show after sign petition).
+
+16)  when user logged on goto start petition page fill the form after submitted open preview popup if preview popup close then goto back on start petition page with fill data by user .
+17)  when user logged on goto start petition page fill the form after submitted open preview popup if preview popup close then goto back on start petition page with fill data by user and after cancel then not show any data in my petition page .
+18) user profile page data changes page and backend to add fields in database table in user .
+19) user logged in but not show any signed petition section in signed section in my petition page .
+20) when user logged goto start petition page and add petition data after submit goto my petition page show to my petition section , no any one petition in print no any recoard show this section
+21) user logged in but not show any signed petition section in signed section in my petition page
+22) Any images upload after user logged in goto start petition page then upload any image not show any error but after submited show my petition page with no images (when images extension is .wepg , .sql , .pdf ) and show with images (extenssion with .jpeg,.jpg, .gif,.png) show any error after upload images which ext is (.wpeg , .sql ) show error this type (this images cannot uploaded this one.)
+23) my account page in store to database (when user logged in open my account page fill then submitted in database user table )  my account page in not working now
+24) our newslatter is working after subscriber input email then subscribe to print message (thanks for subscribition)
+25) forgot password page should be created after input mail then reset password click to redirect to home page with the message (reset password with link on her mail)
+26) 

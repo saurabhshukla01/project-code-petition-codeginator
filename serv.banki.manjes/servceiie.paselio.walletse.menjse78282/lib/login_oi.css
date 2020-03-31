@@ -1,0 +1,531 @@
+
+/*End Simple-line-icons font*/
+/*End Simple-line-icons font*/
+/*RESETEO DE ESTILOS*/
+html, body, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, article, aside, details, dialog, figcaption, figure, footer, header, hgroup, main, nav, section, summary, audio, canvas, video, mark, code, kbd, pre, samp, a, abbr, acronym, address, code, del, dfn, em, strong, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, div { margin: 0; padding: 0; border: none; font-weight: normal; font-style: normal; font-size: 100%; font-family: inherit; vertical-align: baseline; text-decoration: none; -ms-box-sizing: border-box; box-sizing: border-box; }
+strong {font-family: "SourceSansPro-Bold" !important;}
+input, button, select, textarea { margin: 0; padding: 0; font-weight: normal; font-style: normal; font-size: 100%; font-family: inherit; vertical-align: baseline; text-decoration: none; -ms-box-sizing: border-box; box-sizing: border-box; }
+
+.mod_footer.ftr-footerNew {
+	padding: 0;
+	background-color: #ffffff;
+	border-top: 0;
+}
+.mod_footer.ftr-footerNew .ftr-modLinks .ftr-modLinks-list .ftr-modLinks-input {
+	width: initial;
+	margin-top:0;
+}
+
+/*
+.mod_headerBasic2 .col-hdr-logo .hdr-logo-txt{
+	padding-left: 0;
+	clear: both;
+	margin: 0.75rem 0 0.5rem;
+	font-family: 'Bankia-regular';
+	font-size: 2rem;
+}
+
+@media (min-width: 48rem){
+	.mod_headerBasic2 .col-hdr-logo .hdr-logo-txt{
+		font-family: 'Bankia-bold';
+		display: none;
+	}
+}
+
+@media (min-width: 75rem){
+	.mod_headerBasic2 .col-hdr-logo .hdr-logo-txt{
+		display: block;
+		font-size: 1.25rem;
+		float: left;
+		clear: none;
+		margin-left: 1.5625rem;
+		margin-top: 0;
+	}
+}
+*/
+@media (min-width: 48rem){
+	.mod_footer.ftr-footerNew {
+		padding:0;
+		margin-bottom: 10em;
+	}
+}
+
+@media (min-width: 75rem){
+	.mod_footer.ftr-footerNew {
+		margin-bottom: 2em;
+	}
+}
+
+.mod_bannerHeaderSection.bhs-landing {
+	margin-bottom: 0;
+}
+
+.mod_bannerHeaderSection.bhs-landing .bhs-img{
+	display: none;
+}
+
+@media (min-width: 48rem){
+	.mod_bannerHeaderSection.bhs-landing .bhs-img{
+		display: block;
+		z-index: -1;
+	}
+}
+
+.mod_bannerHeaderSection.bhs-landing{
+	height: auto;
+	min-height: inherit;
+}
+
+.container.content-form{
+	background: #eeeeee;
+	padding: 0;
+}
+
+@media (min-width: 48rem){
+	.container.content-form{
+		position: relative;
+		top: 8rem;
+		width: 46.5rem;
+		box-shadow: 1px 2px 3px rgba(1, 1, 1, 0.2);
+	}
+}
+
+@media (min-width: 75rem){
+	.container.content-form{
+		top: 11rem;
+		width: 60rem;
+	}
+}
+
+.container.content-form .iframe-form{
+	background: #fff;
+}
+
+.container.content-form .iframe-form iframe{
+	width: 100%;
+	min-height: 267px;
+}
+
+@media (min-width: 48rem){
+	.container.content-form .iframe-form{
+		padding: 0.5rem 1rem 0;
+		width: 46%;
+		float: left;
+		min-height: 417px;
+	}
+
+	.container.content-form .iframe-form iframe{
+		height: 320px;
+	}
+}
+
+@media (min-width: 75rem){
+	.container.content-form .iframe-form{
+		width: 39%;
+		min-height: 360px;
+	}
+	.container.content-form .iframe-form iframe{
+		min-height: 285px;
+		padding: 0.5rem 1rem 0;
+	}
+}
+
+.container.content-form .iframe-form .links-group{
+	float: left;
+	width: 100%;
+	background: #fff;
+	position: relative;
+	margin-top:-1rem;
+}
+
+.container.content-form .iframe-form .links-group .but-default:hover:after{
+	content:url("https://www.bankia.es/front/images/modules/icons/ico-arrow-right-green-s-hover.png");
+
+}
+.container.content-form .iframe-form .links-group .but-default:after {
+	content: url("https://www.bankia.es/front/images/modules/icons/ico-arrow-right-green-s.png");
+	margin-left: 0.3125rem;
+	float: right;
+}
+
+@media (min-width: 48rem){
+	.container.content-form .iframe-form .links-group .but-default:after {
+		float: none;
+	}
+}
+
+.container.content-form .iframe-form .links-group a{
+	display: block;
+	font-family: "SourceSansPro-SemiBold";
+	color: #6F7800;
+	margin-left: 1.2rem;
+	margin-bottom:1rem;
+	font-size: 1.1rem;
+	margin-right: 1.5rem;
+}
+
+@media (min-width: 75rem){
+	.container.content-form .iframe-form .links-group a{
+		margin-left: 2.2rem;
+		margin-bottom:0.5rem;
+	}
+}
+
+.container.content-form .iframe-form .links-group a:hover{
+	color:#9FAD00;
+}
+
+.mod_headerBasic2{
+	position: relative;
+}
+
+@media (min-width: 48rem){
+	.mod_headerBasic2{
+		position: absolute;
+	}
+}
+
+.content-form .content-figure {
+	clear: both;
+	position: relative;
+}
+
+.content-form .content-figure:before{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 1.5rem;
+	position: absolute;
+	background: #fff;
+}
+
+@media (min-width: 48rem) {
+	.content-form .content-figure:before{
+		display: none;
+	}
+	.content-form .content-figure {
+		float: right;
+		clear: none;
+		background:#eee;
+		width: 54%;
+	}
+}
+
+@media (min-width: 75rem) {
+	.content-form .content-figure {
+		width: 61%;
+		position: relative;
+		min-height: 358px;
+	}
+	.content-form .content-figure .claim-button-content {
+		position: absolute;
+		width: 19rem;
+		top: 5.5rem;
+		left:0.75em
+	}
+}
+
+.content-form .content-figure .hero:before {
+	position: absolute;
+	top: 2.5rem;
+	left: 1rem;
+	content: "";
+	border: 5px solid #B9C800;
+	height: 12.25rem;
+	width: 1.875rem;
+	border-right: none;
+}
+
+@media (min-width: 75rem) {
+	.content-form .content-figure .hero:before{
+		height: 15.5rem;
+		top:3.5rem;
+		left: 1.5rem;
+	}
+}
+
+.content-form .content-figure .hero{
+	position: relative;
+}
+
+.content-form .content-figure .hero img{
+	display: block;
+	margin: -1.5rem auto 0;
+	height: 240px;
+}
+
+@media (min-width: 48rem){
+	.content-form .content-figure .hero img{
+		margin-top: 0.5rem;
+		height: 250px;
+
+	}
+}
+
+@media (min-width: 75rem){
+	.content-form .content-figure .hero img{
+		float: right;
+		margin-top:-1.25rem;
+		margin-right: 2.25rem;
+		height:auto;
+	}
+}
+
+.content-form .content-figure .hero:after {
+	position: absolute;
+	top: 2.5rem;
+	right: 1rem;
+	content: "";
+	border: 5px solid #B9C800;
+	height: 12.25rem;
+	width: 1.875rem;
+	border-left: none;
+}
+
+@media (min-width: 75rem) {
+	.content-form .content-figure .hero::after{
+		height: 15.5rem;
+		top:3.5rem;
+		right: 1.5rem;
+	}
+}
+
+
+/* Atención el border none hay que quitarlo cuando se muestre el módulo de contactabiliddad */
+.mod_contactabilityNew {
+	margin-top: 5rem;
+	border: none;
+}
+
+@media (min-width: 48rem){
+	.mod_contactabilityNew {
+		margin-top: 18rem;
+	}
+}
+
+@media (min-width: 75rem){
+	.mod_contactabilityNew {
+		margin-top: 22rem;
+	}
+}
+
+.mod_contactabilityNew .ctn-figure img{
+	display: inline;
+}
+
+.mod_contactabilityNew .ctn-item{
+		margin-top: 0;
+	}
+
+.claim-button-content .claim p{
+	font-family: 'Bankia-regular';
+	font-size: 1.25rem;
+	float: left;
+	padding: 0rem 2rem 1.625rem 2rem;
+}
+.claim-button-content .claim p:first-child{
+	padding: 1.625rem 0 0rem 2rem;
+}
+@media (min-width: 40rem){
+	.claim-button-content .claim p{
+		padding: 1.625rem 0 0rem 2rem;
+	}
+
+}
+
+@media (min-width: 48rem){
+	.claim-button-content .claim p{
+		padding: 0rem 2rem 0.5rem 2rem;
+	}
+	.claim-button-content .claim p:first-child{
+		padding: 0.5rem 2rem 0rem 2rem;
+	}
+}
+
+@media (min-width: 75rem){
+	.claim-button-content .claim p:first-child{
+		padding: 1.625rem 2rem 0 3rem;
+	}
+.claim-button-content .claim p{
+		padding: 0rem 2rem 0 3rem;
+	}
+}
+
+.claim-button-content .button{
+	padding: 0 2rem 1rem;
+	clear: both;
+}
+
+@media (min-width: 75rem){
+	.claim-button-content .button{
+		padding: 0 2rem 1rem 3rem;
+	}
+}
+
+@media (min-width: 48rem){
+	.mod_bannerHeaderSection.bhs-landing .bhs-img {
+		height: 36rem;
+	}
+}
+
+@media (min-width: 75rem){
+	.mod_bannerHeaderSection.bhs-landing .bhs-img {
+		height: 39rem;
+		width: 100%;
+		max-width: 100%;
+	}
+}
+@media (min-width: 75rem){
+	.mod_bannerHeaderSection .bhs-img img {
+		height: inherit;
+		width: 100%;
+		max-width: 100%;
+	}
+}
+@media (min-width: 48rem) {
+	.mod_buttons .but-default{
+		border: 0;
+		text-align: left;
+		padding-left: 0;
+		color: #6F7800;
+		padding-top: 0;
+		font-size: 1.1rem;
+	}
+	.mod_buttons .but-default:hover{
+		color:#9FAD00;
+	}
+	.mod_buttons .but-default:hover:after{
+		content:url("https://www.bankia.es/front/images/modules/icons/ico-arrow-right-green-s-hover.png");
+	}
+	.mod_buttons .but-default:after {
+		content: url("https://www.bankia.es/front/images/modules/icons/ico-arrow-right-green-s.png");
+		margin-left: 0.3125rem;
+	}
+}
+
+/***menu y header***/
+
+@media (min-width: 48rem){
+	.mod_header.mod_headerNew {
+		position: absolute;
+		background-color: rgba(255, 255, 255, 0.7);
+	}
+}
+
+@media (min-width: 75rem){
+	.mod_header.mod_headerNew {
+		height: inherit;
+	}
+}
+
+.mod_header.mod_headerNew .hdr-atajos .ui-selectmenu-text{
+	font-family: "bankia-medium";
+}
+
+.mod_header.mod_headerNew .hdr-atajos-miniMenu{
+	float: right;
+}
+
+.mod_header.mod_headerNew .hdr-atajos-miniMenu .hdr-atajos-item:last-child .ui-selectmenu-text{
+	border-right: none;
+}
+
+.mod_headerBasic2{
+	min-height: inherit;
+}
+
+.col-hdr-logo .hdr-logo-txt{
+	clear: both;
+	margin: 0.75rem 0 0.5rem;
+	font-family: 'Bankia-regular';
+	font-size: 2rem;
+	padding-left: 1rem;
+	padding-top: 0.5rem;
+}
+
+.mod_header.mod_headerNew .hdr-logo-miniMenu .col-hdr-logo h1 img {
+	width: 85px;
+	display: block;
+	margin: 0 auto;
+	padding-top: 0.65rem;
+}
+
+@media (min-width: 48rem){
+	.mod_header.mod_headerNew{
+		height: 5rem;
+	}
+	.mod_header.mod_headerNew .hdr-logo-miniMenu {
+		float: left;
+		width: auto;
+	}
+	.mod_header.mod_headerNew .hdr-logo-miniMenu .col-hdr-logo h1 img {
+		padding-left: 1rem;
+		width: 130px;
+		padding-top: 1.75rem;
+	}
+	.mod_header.mod_headerNew .hdr-atajos-miniMenu .hdr-atajos {
+		margin-right: 0;
+		margin-top: 1.5rem;
+	}
+}
+
+@media (min-width: 75rem){
+	.mod_header.mod_headerNew .hdr-logo-miniMenu .col-hdr-logo h1 img {
+		margin-left:0;
+	}
+}
+
+@media (min-width: 48rem){
+	.col-hdr-logo .hdr-logo-txt{
+		display: none;
+	}
+}
+
+@media (min-width: 75rem){
+	.col-hdr-logo h1{
+		display: inline;
+	}
+	.col-hdr-logo .hdr-logo-txt{
+		display: inline;
+		font-family: 'Bankia-medium';
+		font-size: 1.25rem;
+		float: left;
+		clear: none;
+		margin-left: 1.5625rem;
+		margin-top: 1.55rem;
+	}
+	.col-hdr-logo h1 a{
+		float: left;
+	}
+}
+
+.sticky-wrapper .col-hdr-logo .hdr-logo-txt{
+	margin-top:0.75rem;
+}
+
+.mod_header.mod_headerNew.sticky-wrapper .hdr-logo-miniMenu .col-hdr-logo h1 img{
+	padding-top:0.75rem;
+}
+
+
+
+
+
+.mod_homeDescription{
+	margin-top: 0;
+}
+
+#contactLanding, #bannerVideoLanding {
+	height: 0;
+}
+.mod_homeDescription .mod_buttons{
+	text-align: left;
+}
+
+/* Correción para el menú Hamburguesa*/
+main.mod_layout div.lyt-box div.col-xs-12 {
+	margin:0;
+	padding:0
+}
+
+

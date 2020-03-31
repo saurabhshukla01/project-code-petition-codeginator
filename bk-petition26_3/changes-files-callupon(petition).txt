@@ -1,0 +1,38 @@
+Views files ==>
+
+1) http://petition.sheenz.in/application/views/list.php
+2) http://petition.sheenz.in/application/views/my-list.php
+3) http://petition.sheenz.in/application/views/preview.php
+4) http://petition.sheenz.in/application/views/home.php
+5) http://petition.sheenz.in/application/views/detail.php
+6) http://petition.sheenz.in/application/views/list.php
+7) http://petition.sheenz.in/application/views/start-petition.php
+8) http://petition.sheenz.in/application/views/update-petition.php
+9) http://petition.sheenz.in/application/views/forgot-password.php
+10) http://petition.sheenz.in/application/views/account_settings.php
+
+Views/common files ==>
+
+1) http://petition.sheenz.in/application/views/common/header.php
+2) http://petition.sheenz.in/application/views/common/footer.php
+
+
+Css files ==>
+
+1) http://petition.sheenz.in/assets/css/style.css
+
+Images  uploaded petition folder ==>
+
+1) http://petition.sheenz.in/assets/img/image-preview.png
+ 
+controller files ==>
+
+1) http://petition.sheenz.in/application/controllers/User_registration
+2) http://petition.sheenz.in/application/controllers/Information
+3) http://petition.sheenz.in/application/controllers/Petition.php
+
+Model files ==>
+
+1) http://petition.sheenz.in/application/models/Petition_model.php
+
+
